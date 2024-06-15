@@ -1,0 +1,40 @@
+.container_auth{
+    font-family: Montserat, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container_auth form{
+    display: flex; 
+    flex-direction: column;
+    width: 400px;
+}
+.container_auth input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+.container_auth button{
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.container_auth a{
+    color: #7c9ab7; 
+    font-weight: bold;
+    text-decoration: none;
+}
+.container_auth p{
+    margin: 10px 0;
+}
+.msg{
+    border: 2px solid rgb(57, 23, 179);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
